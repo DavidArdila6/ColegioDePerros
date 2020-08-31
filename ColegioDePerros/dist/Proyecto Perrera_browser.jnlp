@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Proyecto Perrera_browser.jnlp">
+  <information>
+    <title>Proyecto Perrera</title>
+    <vendor>Jeison</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib\beansbinding-1.2.1.jar" size="631289" download="eager" />
+    <jar href="lib\h2-1.4.200.jar" size="2292560" download="eager" />
+    <jar href="lib\ormlite-core-5.1.jar" size="330307" download="eager" />
+    <jar href="lib\ormlite-jdbc-5.1.jar" size="71435" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="Ppal"  name="Proyecto Perrera" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
